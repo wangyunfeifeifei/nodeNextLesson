@@ -13,6 +13,6 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify(querystring.parse(o)));
 });
 
-server.listen(Config.port,Config.host, () => {
+server.listen(Config.port, Config.host, () => {
     console.log(`server is start at http://${Config.host}:${Config.port}`)
 });
