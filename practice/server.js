@@ -10,5 +10,5 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(PORT, HOST, () => {
-    console.log(`server is start at port ${3000}`);
+    console.log(`server is start at http://${HOST}:${3000}`);
 })
