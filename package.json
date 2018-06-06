@@ -1,0 +1,18 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "description": "实现一个路由模块，通过解析url的路径把请求路由到特定的模块进行处理",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.imweb.io/NEXT-node/node-P2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
