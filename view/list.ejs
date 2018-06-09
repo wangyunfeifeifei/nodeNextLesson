@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./head.ejs') %>
+    <title>blogList</title>
+</head>
+<body>
+    <div>
+        <% for(let i=0; i < data.length; i++) { %>
+            <div>
+                <h2><%= data[i].title %></h2>
+                <p><%= data[i].desc %></p>
+                <p><a href="<%= '/blog?id=' + data[i].id %>">查看详情...</a></p>
+            </div>
+        <% } %>
+    </div>
+</body>
+</html>
